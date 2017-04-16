@@ -1,0 +1,24 @@
+{
+  "name": "geek_date",
+  "version": "1.0.0",
+  "description": "dating matches based on your fandoms",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lafisher/Geek_Date.git"
+  },
+  "keywords": [
+    "date",
+    "geek"
+  ],
+  "author": "Leigh Fisher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lafisher/Geek_Date/issues"
+  },
+  "homepage": "https://github.com/lafisher/Geek_Date#readme"
+}
