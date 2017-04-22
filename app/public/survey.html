@@ -178,8 +178,7 @@
 	      <div class="modal-body">
 	        <h2 id="matchName"></h2>
 	        <img id="matchImg" alt="mmmmm pic is missing. Your match is total geeky hotness. Trust.">
-			<h2 id="name"></h2>
-	        <img id="photo" alt="Photo won't load, but we know you look great.">
+
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -243,10 +242,6 @@
 				// photo not currrently working 
 	    		$("#matchName").text(data.name);
 	    		$('#matchImg').attr("src", data.photo);
-
-				//show user data in match modal 
-				$("#name").text(data.name);
-	    		$('#photo').attr("src", data.photo);
 
 		    	// Show the modal with the best match 
 		    	$("#resultsModal").modal('toggle');

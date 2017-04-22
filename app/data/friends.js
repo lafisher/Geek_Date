@@ -1,7 +1,7 @@
 var friends = [
     {
         "name":"Chris",
-        "photo":"src= 'http://kingofwallpapers.com/chris-pratt/chris-pratt-006.jpg' ",
+        "photo":"http://kingofwallpapers.com/chris-pratt/chris-pratt-006.jpg",
         "scores":[
             5,
             1,
@@ -35,7 +35,7 @@ var friends = [
         "name":"Felicia",
         "photo":"https://s-media-cache-ak0.pinimg.com/736x/7e/4a/18/7e4a185f950e705f6e9c870a39a061f4.jpg",
         "scores":[
-            5,
+            1,
             2,
             5,
             1,

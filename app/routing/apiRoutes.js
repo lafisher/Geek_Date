@@ -26,7 +26,8 @@ module.exports = function (app){
             var friendScores = matchInfo[i].scores;
             var totalDifference = 0;
 
-            for (var j = 0; j < friendScores.length; j++){  //for each friend loop through all scores 
+            //for each friend loop through all scores 
+            for (var j = 0; j < friendScores.length; j++){  
                 var scoreDifference = Math.abs(friendScores[j] - friendScores[j]);  //difference 
                 totalDifference += scoreDifference; //add the difference to running total 
             };
