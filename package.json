@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/lafisher/Geek_Date/issues"
   },
-  "homepage": "https://github.com/lafisher/Geek_Date#readme"
+  "homepage": "https://github.com/lafisher/Geek_Date#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
 }
