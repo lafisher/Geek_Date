@@ -178,7 +178,6 @@
 	      <div class="modal-body">
 	        <h2 id="matchName"></h2>
 	        <img id="matchImg" alt="mmmmm pic is missing. Your match is total geeky hotness. Trust.">
-
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -189,18 +188,6 @@
 	</div>
 
   <script type="text/javascript">
-
-  	// Chosen CSS
-    var config = {
-      '.chosen-select'           : {},
-      '.chosen-select-deselect'  : {allow_single_deselect:true},
-      '.chosen-select-no-single' : {disable_search_threshold:10},
-      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
-      '.chosen-select-width'     : {width:"95%"}
-    }
-    for (var selector in config) {
-      $(selector).chosen(config[selector]);
-    }
 
     // Capture the form inputs 
     $("#submit").on("click", function(){
@@ -238,10 +225,10 @@
 	    	// AJAX post to friends API. 
 	    	$.post(currentURL + "/api/friends", userData, function(data){
 
-	    		// Grab results from the AJAX post so  match name and photo appear in modal 
+	    		// Grab results from the AJAX post so match name and photo appear in modal 
 				// photo not currrently working 
 	    		$("#matchName").text(data.name);
-	    		$('#matchImg').attr("src", data.photo);
+	    		$('#matchImg').attr("img", data.photo);
 
 		    	// Show the modal with the best match 
 		    	$("#resultsModal").modal('toggle');

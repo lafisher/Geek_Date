@@ -4,7 +4,7 @@ var path = require("path");
 
 var app = express();
 
-var PORT = 3000;
+var PORT = process.env.PORT;
 
 //still not sure i understand what's happening here, but let's go with it
 app.use(bodyParser.json());
