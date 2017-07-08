@@ -12,4 +12,4 @@ my next steps:
     8) create app version for iphone and android 
     9) world domination 
     
-    Deployed on heroku: https://geek-match.herokuapp.com/survey
+    Deployed on heroku:  https://geek-match.herokuapp.com 
