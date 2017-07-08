@@ -1,5 +1,5 @@
 # Geek_Date
-My personal spin on the friend finder assignment.  
+Basic structure for a dating app based on fandoms  
 Take a sort survey about which fandoms you align with and find a match from the database in friends.js
 my next steps:
     1) expand questionaire to add more fandoms and more personal information and preferences 
@@ -11,3 +11,5 @@ my next steps:
     7) mobile responsive 
     8) create app version for iphone and android 
     9) world domination 
+    
+    Deployed on heroku: https://geek-match.herokuapp.com/survey
